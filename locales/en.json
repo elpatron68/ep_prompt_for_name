@@ -1,0 +1,5 @@
+{
+  "ep_prompt_for_name.dialog.title": "What is your name?",
+  "ep_prompt_for_name.dialog.hint": "Your name is shown to others on this pad and remembered for your next visit.",
+  "ep_prompt_for_name.dialog.save": "Save"
+}

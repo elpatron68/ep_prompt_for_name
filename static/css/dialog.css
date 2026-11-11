@@ -1,0 +1,72 @@
+#ep_prompt_for_name_overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 32, 0.55);
+  padding: 1rem;
+}
+
+#ep_prompt_for_name_dialog {
+  width: min(420px, 100%);
+  background: #1f2933;
+  color: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  padding: 1.25rem 1.35rem 1.35rem;
+}
+
+#ep_prompt_for_name_dialog h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 650;
+}
+
+#ep_prompt_for_name_hint {
+  margin: 0 0 1rem;
+  color: #cbd2d9;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+#ep_prompt_for_name_input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #7b8794;
+  border-radius: 8px;
+  background: #323f4b;
+  color: #fff;
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+}
+
+#ep_prompt_for_name_input:focus {
+  outline: 2px solid #2bb0ed;
+  border-color: #2bb0ed;
+}
+
+#ep_prompt_for_name_input.ep_prompt_for_name_invalid {
+  border-color: #ef4e4e;
+}
+
+#ep_prompt_for_name_actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ep_prompt_for_name_primary {
+  border: 0;
+  border-radius: 8px;
+  background: #1992d4;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.65rem 1.1rem;
+  cursor: pointer;
+}
+
+.ep_prompt_for_name_primary:hover {
+  background: #127fbf;
+}

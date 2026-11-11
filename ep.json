@@ -2,7 +2,11 @@
   "parts": [
     {
       "name": "prompt_for_name",
+      "hooks": {
+        "eejsBlock_styles": "ep_prompt_for_name/index"
+      },
       "client_hooks": {
+        "postAceInit": "ep_prompt_for_name/static/js/index",
         "aceInitialized": "ep_prompt_for_name/static/js/index"
       }
     }

@@ -1,0 +1,5 @@
+{
+  "ep_prompt_for_name.dialog.title": "Wie heißt du?",
+  "ep_prompt_for_name.dialog.hint": "Dein Name wird anderen auf diesem Pad angezeigt und für den nächsten Besuch gespeichert.",
+  "ep_prompt_for_name.dialog.save": "Speichern"
+}
