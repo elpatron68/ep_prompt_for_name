@@ -1,14 +1,14 @@
 {
   "name": "ep_prompt_for_name",
   "description": "Prompt an author for their name 5 seconds after they type",
-  "version": "1.0.70",
+  "version": "1.0.70-elpatron.1",
   "author": "johnyma22 (John McLear) <john@mclear.co.uk>",
   "engines": {
     "node": ">=22.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ether/ep_prompt_for_name.git"
+    "url": "git+https://github.com/elpatron68/ep_prompt_for_name.git"
   },
   "funding": {
     "type": "individual",
@@ -22,5 +22,6 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
-  }
+  },
+  "homepage": "https://github.com/elpatron68/ep_prompt_for_name#readme"
 }
